@@ -57,6 +57,31 @@ project/
 
 ---
 
+## Data Setup
+
+To use this repository, you need to download the dataset and place it in the correct location. Follow these steps:
+
+1. Download the `train-2025.csv` file from the provided Google Drive link:
+   [Download train-2025.csv](https://drive.google.com/file/d/1u3ZDCs9RnX28X-zS4CUN9w1MK5y_HbHC/view?usp=sharing)
+
+2. Place the file in the root directory of the repository (same level as `README.md`).
+
+Your folder structure should look like this:
+```
+.
+├── README.md
+├── requirements.txt
+├── estimator.py
+├── harness.py
+├── predictor.py
+├── preprocessor.py
+├── train-2025.csv
+```
+
+3. Once the file is in place, you can proceed with running the scripts as described in the repository.
+
+---
+
 ## Usage
 
 ### Generating Preprocessing and Model Files
